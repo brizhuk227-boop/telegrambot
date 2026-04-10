@@ -2,6 +2,7 @@ import logging
 import sqlite3
 from aiogram import Bot, Dispatcher, executor, types
 
+import os
 API_TOKEN = os.getenv("API_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
